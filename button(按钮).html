@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bootstrap基本模板</title>
+
+    <link rel="stylesheet" id="css-min-bootstrap"
+        href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" id="css-min-bootstrap-theme"
+        href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+        crossorigin="anonymous" />
+    <script id="js-min-jquery"
+        src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"
+        integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB"
+        crossorigin="anonymous"></script>
+    <script id="js-min-bootstrap"
+        src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 添加 class="btn" 即可使用按钮 -->
+        <!-- 很多标签都能作 按钮 使用 -->
+        <!-- 建议尽量使用 button标签 来制作按钮 -->
+        <button class="btn">基础按钮</button>
+        <a href="#" class="btn" role="button">A标签按钮</a>
+        <input type="button" class="btn" value="input 按钮" />
+
+        <hr />
+        <label>七种按钮风格</label><br />
+        <button class="btn btn-default">btn-default</button>
+        <button class="btn btn-primary">btn-primary</button>
+        <button class="btn btn-success">btn-success</button>
+        <button class="btn btn-info">btn-info</button>
+        <button class="btn btn-warning">btn-warning</button>
+        <button class="btn btn-danger">btn-danger</button>
+        <button class="btn btn-link">btn-link</button>
+
+        <hr />
+        <label>三种状态</label><br />
+        <button class="btn btn-default">默认（无状态）</button>
+        <button class="btn btn-default hover">鼠标悬浮</button>
+        <button class="btn btn-default active">激活</button>
+        <button class="btn btn-default focus">焦点</button>
+
+        <hr />
+        <label>禁用按钮</label><br />
+        <button class="btn btn-primary disabled">禁用</button>
+        <button class="btn btn-default" disabled="disabled">禁用</button>
+    </div>
+</body>
+
+</html>
